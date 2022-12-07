@@ -24,7 +24,7 @@
     },
     {
       "matchManagers": ["gomod"],
-      "matchPackagePatterns": ["^k8s.io/*", "^sigs.k8s.io*"],
+      "matchPackagePatterns": ["^k8s.io/*", "^sigs.k8s.io/*"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "automergeStrategy": "squash"
