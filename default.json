@@ -8,6 +8,13 @@
       "automerge": true,
       "automergeType": "pr",
       "automergeStrategy": "squash"
+    },
+    {
+      "matchManagers": ["terraform", "terraform-version"],
+      "excludePackageNames": ["philips-labs/github-runner/aws"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "automergeStrategy": "squash"
     }
   ]
 }
