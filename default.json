@@ -6,31 +6,27 @@
       "semanticCommitType": "chore",
       "semanticCommitScope": "actions",
       "automerge": true,
-      "automergeType": "branch",
-      "automergeStrategy": "squash"
+      "automergeType": "branch"
     },
     {
       "matchManagers": ["terraform", "terraform-version"],
       "excludePackageNames": ["philips-labs/github-runner/aws"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
-      "automergeType": "branch",
-      "automergeStrategy": "squash"
+      "automergeType": "branch"
     },
     {
       "matchManagers": ["swift"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
-      "automergeType": "branch",
-      "automergeStrategy": "squash"
+      "automergeType": "branch"
     },
     {
       "matchManagers": ["gomod"],
       "excludePackagePatterns": ["^k8s.io/*", "^sigs.k8s.io/*"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
-      "automergeType": "branch",
-      "automergeStrategy": "squash"
+      "automergeType": "branch"
     }
   ]
 }
