@@ -6,7 +6,8 @@
       "semanticCommitType": "chore",
       "semanticCommitScope": "actions",
       "automerge": true,
-      "automergeType": "branch"
+      "automergeType": "branch",
+      "ignoreTests": true
     },
     {
       "matchManagers": ["terraform", "terraform-version"],
