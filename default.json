@@ -1,6 +1,6 @@
 {
   "extends": ["config:base"],
-  "schedule": ["at 10am every weekday"],
+  "schedule": ["after 9am and before 1pm every weekday"],
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
