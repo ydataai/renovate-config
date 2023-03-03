@@ -11,13 +11,6 @@
       "ignoreTests": true
     },
     {
-      "matchManagers": ["terraform", "terraform-version"],
-      "excludePackageNames": ["philips-labs/github-runner/aws"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "automergeType": "branch"
-    },
-    {
       "matchManagers": ["swift"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
