@@ -1,6 +1,7 @@
 {
   "extends": ["config:base"],
   "schedule": ["after 9am and before 1pm every weekday"],
+  "rebaseWhen": "conflicted",
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
