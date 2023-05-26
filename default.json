@@ -25,5 +25,10 @@
       "automergeType": "branch"
     }
   ],
-  "ignoreDeps": ["istio.io/api"]
+  "ignoreDeps": ["istio.io/api"],
+  "hostRules": [
+    {
+      "timeout": 3600000
+    }
+  ]
 }
