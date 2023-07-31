@@ -1,6 +1,6 @@
 {
   "extends": ["config:base"],
-  "schedule": ["before 12am every weekday"],
+  "schedule": ["before 12pm every weekday"],
   "rebaseWhen": "conflicted",
   "packageRules": [
     {
