@@ -23,7 +23,7 @@
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "automergeType": "branch",
-       "postUpdateOptions": ["gomodTidy"]
+      "postUpdateOptions": ["gomodTidy"]
     }
   ],
   "ignoreDeps": ["istio.io/api"],
