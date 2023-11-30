@@ -22,7 +22,8 @@
       "excludePackagePatterns": ["^k8s.io/*", "^sigs.k8s.io/*"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
-      "automergeType": "branch"
+      "automergeType": "branch",
+       "postUpdateOptions": ["gomodTidy"]
     }
   ],
   "ignoreDeps": ["istio.io/api"],
