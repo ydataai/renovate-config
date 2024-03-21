@@ -31,5 +31,6 @@
     {
       "timeout": 3600000
     }
-  ]
+  ],
+  "draftPR": true
 }
